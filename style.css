@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+header {
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 500px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+#my-form {
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+#my-form h1 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#my-form label {
+  display: block;
+  font-size: 12px;
+}
+
+#my-form input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 6px;
+  padding: 4px;
+  width: 100%;
+}
+
+.btn {
+  background: #333;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 10px;
+  padding: 6px;
+  width: 100%;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.msg {
+  color: #c00;
+  margin-bottom: 5px;
+}
+
+#users {
+  list-style: none;
+}
+
+#users li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 8px 12px;
+  list-style: none;
+}
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+.error {
+  background-color: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+@media (max-width: 520px) {
+  .container {
+    margin-top: 24px;
+  }
+}
